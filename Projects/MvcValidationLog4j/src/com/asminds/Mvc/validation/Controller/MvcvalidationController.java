@@ -12,6 +12,7 @@ package com.asminds.Mvc.validation.Controller;
 
 	        @RequestMapping(value="displayForm", method=RequestMethod.GET)
 	        public String helloWorld(UserDetails ud) {
+			System.out.println("Hai");
 	            return "loginPage";            
 	        }
 
